@@ -39,7 +39,7 @@
             </StackPanel.Background>
 
             <TextBlock Margin="5,5,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="17">Correo Electrónico</TextBlock>
-            <TextBox Margin="5,5,5,15" VerticalAlignment="Center"></TextBox>
+            <TextBox Margin="5,5,5,15" VerticalAlignment="Center" MinWidth="350" MaxWidth="700" HorizontalAlignment="Left"></TextBox>
         </StackPanel>
         <StackPanel Margin="10" Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Margin="5">Aceptar</Button>
