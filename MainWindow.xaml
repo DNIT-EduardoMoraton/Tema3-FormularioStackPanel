@@ -9,8 +9,26 @@
     
     
 
+    <Window.Resources>
+        <Style TargetType="StackPanel" >
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5,5,0,0"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+            <Setter Property="FontSize" Value="17"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5,5,0,0"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+        </Style>
+
+    </Window.Resources>
+    
+    
     <StackPanel>
-        <StackPanel Margin="10">
+        <StackPanel>
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFFF8787" Offset="0.293"/>
@@ -18,10 +36,10 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
 
-            <TextBlock Margin="5,5,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="17">Nombre</TextBlock>
-            <TextBox Margin="5,5,5,15" VerticalAlignment="Center"></TextBox>
+            <TextBlock>Nombre</TextBlock>
+            <TextBox></TextBox>
         </StackPanel>
-        <StackPanel Margin="10">
+        <StackPanel>
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF87FFA2" Offset="0.293"/>
@@ -29,10 +47,10 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
 
-            <TextBlock Margin="5,5,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="17">Dirección</TextBlock>
+            <TextBlock>Dirección</TextBlock>
             <TextBox Margin="5,5,5,15" VerticalAlignment="Center"></TextBox>
         </StackPanel>
-        <StackPanel Margin="10">
+        <StackPanel>
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF36BEF1" Offset="0.293"/>
@@ -40,8 +58,8 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
 
-            <TextBlock Margin="5,5,0,0" VerticalAlignment="Center" FontWeight="Bold" FontSize="17">Correo Electrónico</TextBlock>
-            <TextBox Margin="5,5,5,15" VerticalAlignment="Center" MinWidth="350" MaxWidth="700" HorizontalAlignment="Left"></TextBox>
+            <TextBlock>Correo Electrónico</TextBlock>
+            <TextBox MinWidth="350" MaxWidth="700" HorizontalAlignment="Left"></TextBox>
         </StackPanel>
         <StackPanel Margin="10" Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Margin="5">Aceptar</Button>
