@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:Tema3_FormularioStackPanel"
         mc:Ignorable="d"
         Title="Formulario Acceso" Height="450" Width="800" Icon="assets/Custom-Icon-Design-Mono-General-2-Document.ico">
+    
+    
 
     <StackPanel>
         <StackPanel Margin="10">
